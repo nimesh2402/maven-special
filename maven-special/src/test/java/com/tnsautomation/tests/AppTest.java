@@ -43,7 +43,7 @@ public void setup(String broser)
 }
 
 	@Test
-public void setupSelenium(){
+	public void setupSelenium(){
         //Start the browser (firefox for now)
         //driver = new FirefoxDriver();
          driver.navigate().to("http://google.com");
