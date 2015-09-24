@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.tnsautomation.tests.AppTest" duration-ms="32135" started-at="2015-09-17T23:26:58Z" finished-at="2015-09-17T23:27:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="32135" started-at="2015-09-17T23:26:58Z" finished-at="2015-09-17T23:27:30Z">
+      <class name="com.tnsautomation.tests.AppTest">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@d3bd8b]" name="setupSelenium" duration-ms="32102" started-at="2015-09-18T04:56:58Z" finished-at="2015-09-18T04:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+      </class> <!-- com.tnsautomation.tests.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.tnsautomation.tests.AppTest -->
+</testng-results>
