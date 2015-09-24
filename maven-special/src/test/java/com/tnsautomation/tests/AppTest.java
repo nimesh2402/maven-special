@@ -29,16 +29,16 @@ public void setup(String broser)
 		driver=new FirefoxDriver();
 		
 	}
-	else if(broser.equalsIgnoreCase("Chrome"))
-	{
-		System.setProperty("webdriver.chrome.driver",".\\chromedriver.exe");
-		driver=new ChromeDriver();
-	}
 	else if(broser.equalsIgnoreCase("IE"))
 	{
 		System.setProperty("webdriver.ie.driver",".\\IEDriverServer.exe");
 		driver=new InternetExplorerDriver();
 		//comments
+	}
+	else if(broser.equalsIgnoreCase("Chrome"))
+	{
+		System.setProperty("webdriver.chrome.driver",".\\chromedriver.exe");
+		driver=new ChromeDriver();
 	}
 }
 
