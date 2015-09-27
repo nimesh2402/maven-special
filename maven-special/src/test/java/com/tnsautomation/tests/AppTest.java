@@ -47,8 +47,8 @@ public void setup(String broser)
         //Start the browser (firefox for now)
         //driver = new FirefoxDriver();
          driver.navigate().to("http://google.com");
-         driver.get("http://google.com");
-         System.out.println("test");
+         //driver.get("http://google.com");
+         //System.out.println("test");
         //This adds implicit timeouts to the driver (instead of clickAndWait())
        // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
