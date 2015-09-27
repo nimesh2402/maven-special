@@ -2,35 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42561" started-at="2015-09-24T21:28:45Z" finished-at="2015-09-24T21:29:27Z">
+  <suite name="Suite" duration-ms="111832" started-at="2015-09-27T19:47:43Z" finished-at="2015-09-27T19:49:35Z">
     <groups>
     </groups>
-    <test name="IEtest" duration-ms="19188" started-at="2015-09-24T21:28:45Z" finished-at="2015-09-24T21:29:04Z">
+    <test name="firefoxtest" duration-ms="43961" started-at="2015-09-27T19:47:43Z" finished-at="2015-09-27T19:48:27Z">
       <class name="com.tnsautomation.tests.AppTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@ac6e3]" name="setup" is-config="true" duration-ms="7805" started-at="2015-09-25T02:58:45Z" finished-at="2015-09-25T02:58:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@ac6e3]" name="setupSelenium" duration-ms="11220" started-at="2015-09-25T02:58:53Z" finished-at="2015-09-25T02:59:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSelenium -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@ac6e3]" name="shutdown" is-config="true" duration-ms="143" started-at="2015-09-25T02:59:04Z" finished-at="2015-09-25T02:59:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutdown -->
-      </class> <!-- com.tnsautomation.tests.AppTest -->
-    </test> <!-- IEtest -->
-    <test name="firefoxtest" duration-ms="29895" started-at="2015-09-24T21:28:45Z" finished-at="2015-09-24T21:29:15Z">
-      <class name="com.tnsautomation.tests.AppTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@b5cdba]" name="setup" is-config="true" duration-ms="14791" started-at="2015-09-25T02:58:45Z" finished-at="2015-09-25T02:59:00Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@17c7260]" name="setup" is-config="true" duration-ms="23581" started-at="2015-09-28T01:17:43Z" finished-at="2015-09-28T01:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -41,19 +18,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@b5cdba]" name="setupSelenium" duration-ms="14898" started-at="2015-09-25T02:59:00Z" finished-at="2015-09-25T02:59:14Z">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@17c7260]" name="setupSelenium" duration-ms="20004" started-at="2015-09-28T01:18:07Z" finished-at="2015-09-28T01:18:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSelenium -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@b5cdba]" name="shutdown" is-config="true" duration-ms="198" started-at="2015-09-25T02:59:14Z" finished-at="2015-09-25T02:59:15Z">
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@17c7260]" name="shutdown" is-config="true" duration-ms="242" started-at="2015-09-28T01:18:27Z" finished-at="2015-09-28T01:18:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- com.tnsautomation.tests.AppTest -->
     </test> <!-- firefoxtest -->
-    <test name="chrometest" duration-ms="23222" started-at="2015-09-24T21:29:04Z" finished-at="2015-09-24T21:29:27Z">
+    <test name="IEtest" duration-ms="69811" started-at="2015-09-27T19:47:43Z" finished-at="2015-09-27T19:48:53Z">
       <class name="com.tnsautomation.tests.AppTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@6e6d5e]" name="setup" is-config="true" duration-ms="9863" started-at="2015-09-25T02:59:04Z" finished-at="2015-09-25T02:59:14Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@cf57e3]" name="setup" is-config="true" duration-ms="32471" started-at="2015-09-28T01:17:43Z" finished-at="2015-09-28T01:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@cf57e3]" name="setupSelenium" duration-ms="36889" started-at="2015-09-28T01:18:15Z" finished-at="2015-09-28T01:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@cf57e3]" name="shutdown" is-config="true" duration-ms="440" started-at="2015-09-28T01:18:52Z" finished-at="2015-09-28T01:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- com.tnsautomation.tests.AppTest -->
+    </test> <!-- IEtest -->
+    <test name="chrometest" duration-ms="67592" started-at="2015-09-27T19:48:27Z" finished-at="2015-09-27T19:49:35Z">
+      <class name="com.tnsautomation.tests.AppTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@f82f98]" name="setup" is-config="true" duration-ms="50177" started-at="2015-09-28T01:18:27Z" finished-at="2015-09-28T01:19:17Z">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@6e6d5e]" name="setupSelenium" duration-ms="11726" started-at="2015-09-25T02:59:14Z" finished-at="2015-09-25T02:59:26Z">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@f82f98]" name="setupSelenium" duration-ms="16158" started-at="2015-09-28T01:19:17Z" finished-at="2015-09-28T01:19:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSelenium -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@6e6d5e]" name="shutdown" is-config="true" duration-ms="1625" started-at="2015-09-25T02:59:26Z" finished-at="2015-09-25T02:59:27Z">
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@f82f98]" name="shutdown" is-config="true" duration-ms="1254" started-at="2015-09-28T01:19:33Z" finished-at="2015-09-28T01:19:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
