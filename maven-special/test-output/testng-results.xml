@@ -1,78 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="111832" started-at="2015-09-27T19:47:43Z" finished-at="2015-09-27T19:49:35Z">
+  <suite name="Default suite" duration-ms="79" started-at="2015-12-25T21:32:11Z" finished-at="2015-12-25T21:32:11Z">
     <groups>
     </groups>
-    <test name="firefoxtest" duration-ms="43961" started-at="2015-09-27T19:47:43Z" finished-at="2015-09-27T19:48:27Z">
+    <test name="Default test" duration-ms="79" started-at="2015-12-25T21:32:11Z" finished-at="2015-12-25T21:32:11Z">
       <class name="com.tnsautomation.tests.AppTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@17c7260]" name="setup" is-config="true" duration-ms="23581" started-at="2015-09-28T01:17:43Z" finished-at="2015-09-28T01:18:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@9a8472]" name="setup" is-config="true" duration-ms="0" started-at="2015-12-26T03:02:11Z" finished-at="2015-12-26T03:02:11Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse--697202350\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse--697202350\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:148)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
+	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@17c7260]" name="setupSelenium" duration-ms="20004" started-at="2015-09-28T01:18:07Z" finished-at="2015-09-28T01:18:27Z">
+        <test-method status="SKIP" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@9a8472]" name="setupSelenium" duration-ms="18" started-at="2015-12-26T03:02:11Z" finished-at="2015-12-26T03:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSelenium -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@17c7260]" name="shutdown" is-config="true" duration-ms="242" started-at="2015-09-28T01:18:27Z" finished-at="2015-09-28T01:18:27Z">
+        <test-method status="SKIP" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@9a8472]" name="shutdown" is-config="true" duration-ms="0" started-at="2015-12-26T03:02:11Z" finished-at="2015-12-26T03:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- com.tnsautomation.tests.AppTest -->
-    </test> <!-- firefoxtest -->
-    <test name="IEtest" duration-ms="69811" started-at="2015-09-27T19:47:43Z" finished-at="2015-09-27T19:48:53Z">
-      <class name="com.tnsautomation.tests.AppTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@cf57e3]" name="setup" is-config="true" duration-ms="32471" started-at="2015-09-28T01:17:43Z" finished-at="2015-09-28T01:18:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@cf57e3]" name="setupSelenium" duration-ms="36889" started-at="2015-09-28T01:18:15Z" finished-at="2015-09-28T01:18:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSelenium -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@cf57e3]" name="shutdown" is-config="true" duration-ms="440" started-at="2015-09-28T01:18:52Z" finished-at="2015-09-28T01:18:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutdown -->
-      </class> <!-- com.tnsautomation.tests.AppTest -->
-    </test> <!-- IEtest -->
-    <test name="chrometest" duration-ms="67592" started-at="2015-09-27T19:48:27Z" finished-at="2015-09-27T19:49:35Z">
-      <class name="com.tnsautomation.tests.AppTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tnsautomation.tests.AppTest@f82f98]" name="setup" is-config="true" duration-ms="50177" started-at="2015-09-28T01:18:27Z" finished-at="2015-09-28T01:19:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.tnsautomation.tests.AppTest@f82f98]" name="setupSelenium" duration-ms="16158" started-at="2015-09-28T01:19:17Z" finished-at="2015-09-28T01:19:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSelenium -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.tnsautomation.tests.AppTest@f82f98]" name="shutdown" is-config="true" duration-ms="1254" started-at="2015-09-28T01:19:33Z" finished-at="2015-09-28T01:19:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutdown -->
-      </class> <!-- com.tnsautomation.tests.AppTest -->
-    </test> <!-- chrometest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
