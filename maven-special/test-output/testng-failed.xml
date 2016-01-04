@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="firefoxtest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.tnsautomation.tests.AppTest">
         <methods>
+          <include name="shutdown"/>
+          <include name="shutdown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
           <include name="setupSelenium"/>
         </methods>
       </class> <!-- com.tnsautomation.tests.AppTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

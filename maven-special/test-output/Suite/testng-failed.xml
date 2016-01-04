@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
   <parameter name="browser" value="chrome"/>
-  <test name="IEtest(failed)" parallel="tests">
-    <parameter name="browser" value="IE"/>
+  <test name="firefoxtest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.tnsautomation.tests.AppTest">
         <methods>
@@ -16,5 +16,5 @@
         </methods>
       </class> <!-- com.tnsautomation.tests.AppTest -->
     </classes>
-  </test> <!-- IEtest(failed) -->
+  </test> <!-- firefoxtest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
